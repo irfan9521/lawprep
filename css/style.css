@@ -1,0 +1,253 @@
+.btnedit{
+    background-color: #667085;
+    color: white;
+    margin-right: 20px;
+}
+.btnedit2{
+    background-color: red;
+}
+.btnedit3{
+    background-color: #202b73;
+    color: white;
+}
+.button-edit{
+    margin-top: 10px;
+}
+#slider1.carousel-indicators [data-bs-target]{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+.formmain{
+    background-color:#101828;
+
+} 
+.h2class{
+    color: white !important;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.pclass{
+    color: white !important;
+    text-align: center;
+    font-size: 15px;
+}
+.form-control-box{
+    border: 1px solid var(--light-gray);
+    color: var(--label-color-2) !important;
+    height: 48px;
+ 
+    padding-left: 38px;
+    border-radius: 4px;
+    transition: none !important;
+    position: relative;
+    margin-top: 10px;
+    
+}
+.dropdown-menu{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.input-icon{
+    position: absolute;
+    left: 13%;
+    top: 20%;
+}
+.optclass{
+    background-color: white;
+    width: 300px;
+}
+.input1{
+    position: relative;
+}
+.input2{
+    position: absolute;
+}
+#dropdownMenuButton{
+    width: 300px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    border: none;
+    box-sizing: border-box;
+    text-align: start;
+    margin-top: 10px;
+
+}
+.form-control{
+    margin-left: 0px;
+    margin-right:20px;
+    
+
+}
+.items{
+    position: relative;
+}
+.items::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    transition: 0.5s;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+.items:hover::after{
+    width: 100%;
+}
+
+.btn1{
+    width: 300px;
+    height: 48px;
+    background-color: red;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: none;
+}
+.class5{
+    background-color:#101828;
+    
+}
+.h2class{
+     color: white !important; 
+     font-size: 30px;
+}
+.h3edit{
+    color: white !important;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.h5edit{
+    color:black  !important;
+    padding-left: 10px;
+    margin-top: 100px;
+}
+.pedit{
+    color: black !important;
+}
+.color1{
+    background: linear-gradient(106.78deg, #ffefab 10.51%, #f1c4c4 80.72%);
+    height: 400px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.smalldiv1{
+    width:80px !important;
+height: 30px !important;
+background-color: white !important;
+color:black !important;
+border-radius: 4px 4px 4px 4px;
+text-align: center;
+}
+.divvparent1{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items:center;
+
+}
+.divparent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 20px;
+}
+.smalldiv2{
+    width:80px !important;
+    height: 30px !important;
+    background-color: white !important;
+    color:black !important;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+  
+}
+.color1:hover{
+background-image:url("../images/images27.webp") !important ;
+background-repeat: no-repeat;
+background-size: cover;
+/* transition: 5s; */
+}
+.color1:hover .h3edit{
+ opacity: 0;
+ transform: translate(-10%);
+ transition: 1s;
+
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+}
+.mid1{
+    flex-basis: 45%;
+}
+.button-class{
+    text-align: center;
+}
+.button-class button{
+    color: red;
+    border: 1px solid red;
+}
+.button-class button:hover{
+    background-color: red;
+    color: white;
+}
+.accordion-button::after{
+    background-image: url("https://www.lawpreptutorial.com/images/courses/accordion-open.png") !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("https://www.lawpreptutorial.com/images/courses/accordion-close.png") !important;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid black !important;
+}
+.foot-class{
+    background-color: #101828;
+}
+.footer-class3 ul li a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.footer-class2 ul li a{
+    text-decoration: none !important;
+    color: white !important;
+    position: relative;
+}
+.footer-class2 ul li a::after{
+    content: "";
+    width:0%;
+    height: 2px;
+    position: absolute;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgb(250, 247, 247) !important;
+}
+.footer-class2 ul li a:hover::after{
+    width: 100%;
+}
+
+.owl-nav{
+    display: none;
+}
+#slliderteam .owl-dots{
+    padding-top: 40px;
+
+}
+
+#slliderteam .owl-dots .owl-dot.active span{
+background-color: red;
+width: 50px;
+}
